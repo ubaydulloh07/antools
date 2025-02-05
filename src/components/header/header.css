@@ -1,0 +1,54 @@
+.header {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 105px;
+  gap: 300px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.logo b {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.nav a {
+  text-decoration: none;
+  color: var(--p-color);
+}
+
+.Keyboard {
+  background-color: transparent;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sign-up {
+  background: #ff6e30;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sign-up:hover {
+  opacity: 0.8;
+}

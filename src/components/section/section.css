@@ -1,0 +1,125 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+.hero-text {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #ffffff8c;
+
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  background-color: #283036;
+
+  border-radius: 10px;
+  width: 100%;
+  height: 60px;
+}
+.search-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  color: gray;
+}
+
+.search-button {
+  position: absolute;
+  right: 10px;
+  color: white;
+  background: #ff6e30;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.most-popular {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  gap: 25px;
+}
+
+.most-popular h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.most-popular p {
+  color: #ffffff8c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.cards-11 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+}
+
+.visits {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visits button {
+  width: 184px;
+  height: 64px;
+  background-color: transparent;
+  color: #ff6e30;
+  border: 1px solid #ffffff1a;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.visits button:hover {
+  box-shadow: white 1px 1px 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.figma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 395px;
+  height: 295px;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 20px;
+}
+.figma:hover {
+  box-shadow: white 1px 1px 10px;
+  cursor: pointer;
+}
+
+.figma-1 {
+  display: flex;
+  gap: 10px;
+}
+
+.figma-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.figma-text b {
+  font-size: 24px;
+  font-weight: 500;
+}
+.figma-text p {
+  color: rgba(255, 165, 55, 0.55);
+}
+.figma-img img {
+  width: 64px;
+  height: 64px;
+}
+
+.figma-t {
+  color: #ffffff8c;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.figma-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.figma-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.figma-btn button {
+  width: 42px;
+  height: 42px;
+  background-color: transparent;
+}
+.ss:hover {
+  background-color: red;
+}
+.visit button {
+  width: 106px;
+  height: 42px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin-right: 50px;
+}
