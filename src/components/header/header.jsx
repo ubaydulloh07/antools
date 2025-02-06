@@ -1,6 +1,7 @@
 
 import "./header.css"
 function Header() {
+
     return (
    
         <header className="header">
@@ -13,7 +14,7 @@ function Header() {
 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25642 16.9507C9.25642 11.625 13.5738 7.30762 18.8995 7.30762C21.5623 7.30762 23.9731 8.38695 25.7182 10.132C24.1095 8.52336 21.9351 7.48044 19.5191 7.32724C17.894 9.12575 16.9044 11.5095 16.9044 14.1243C16.9044 14.3194 16.9099 14.5131 16.9208 14.7055C16.299 15.2538 15.9068 16.0565 15.9068 16.9507V17.6157H21.8922L17.5214 17.6158C18.9445 21.4968 22.672 24.2661 27.0462 24.2661C27.5546 24.2661 28.0543 24.2287 28.5425 24.1565V28.2563H21.8922V24.2661H15.9068V28.2563H9.25642V20.9409V16.9507Z" fill="white"/>
 </svg>
 
-<b>antools.</b>
+<b>antools.</b> 
 </div>
 
 <div>
@@ -29,9 +30,8 @@ function Header() {
 </div>
 
 <div class="buttons">
-
-<button className="Keyboard">Log In</button>
-    <button className="sign-up">Sign Up</button>
+<button className="Keyboard">Login</button>
+ <button className="sign-up">Sign Up</button>
 </div>
 
 
@@ -41,3 +41,6 @@ function Header() {
 }
 
 export default Header
+
+
+

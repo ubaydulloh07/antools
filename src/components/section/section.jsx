@@ -71,15 +71,52 @@ function Section() {
 
 
 <div className="cards-11">
-<Card />
-<Card />
-<Card />
+
+      <Card
+        title="FIGMA"
+        price="Free"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        icon="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+      />
+      
+      <Card
+        title="Sketch"
+        price="Trial & Paid"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        icon="./assets/image/sssk.png"
+      />
+      
+      <Card
+        title="Visual Studio Code"
+        price="Free"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        icon="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
+      />
+   
 </div>
 
 <div className="cards-11">
-<Card />
-<Card />
-<Card />
+<Card 
+title="Notion"
+price="Free & Paid"
+description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+icon="./assets/image/notion.png" />
+
+
+<Card 
+title="Slack"
+price="Free & Paid"
+description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+icon="./assets/image/slack.png" />
+
+
+
+<Card 
+title="Invision"
+price="Free & Paid"
+description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+icon="./assets/image/inss.png" />
+
 </div>
 
 <div className="visits">

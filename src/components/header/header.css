@@ -3,8 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 26px 105px;
+  padding: 26px 80px;
   gap: 300px;
+  font-family: sans-serif;
 }
 
 .logo {
@@ -26,7 +27,15 @@
 }
 .nav a {
   text-decoration: none;
-  color: var(--p-color);
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav a:hover {
+  color: #ff6e30;
 }
 
 .Keyboard {
@@ -37,6 +46,25 @@
   border-radius: 10px;
   font-weight: 500;
   font-size: 16px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.Keyboard:hover {
+  background: #ff6e30;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .sign-up {

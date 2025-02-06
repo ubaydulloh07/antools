@@ -34,13 +34,35 @@ function Browser() {
         <div className="cards">
 
         <div className="cards-1">
-        <Card />
-        <Card />
+        <Card 
+        title="Zeplin" 
+        price='Free & Paid'
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+        icon="./assets/image/zzp.png"
+        />
+
+        <Card
+        title="Toolbox"
+        price="Free"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+        icon="./assets/image/ppxx.png" />
+
         </div>
         
         <div className="cards-1">
-        <Card />
-        <Card />
+        <Card  
+         title="PHPStorm"
+         price="Free"
+         description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+         icon="./assets/image/php.png"  />
+
+        <Card
+        title="Procreate"
+        price="Paid"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+        icon="./assets/image/ddll.png" />
+
+
         </div>
 
         </div>
